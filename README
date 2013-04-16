@@ -1,0 +1,4 @@
+1. Download jan13dd.rtf from DataFerret
+2. RTF is a nasty format! Mangle it into plaintext with rtf2txt.sh
+3. Edit this plaintext by hand to separate the categories and remove the header / footer
+4. Parse into JSON with jsonify.py
