@@ -4,3 +4,6 @@
 4. Parse into JSON with jsonify.py
 5. Download may13pub.dat from http://www.nber.org/data/cps_basic.html
 6. Convert to CSV with dat2csv.py
+
+More ideas:
+http://www.nber.org/data/progs/cps-basic/cpsbjan13.do defines labels for the factors, and with that the range of acceptable values. It's a regular language (Stata .do), so relatively easy to parse.
