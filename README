@@ -1,4 +1,6 @@
-1. Download jan13dd.rtf from DataFerret
+1. Download jan13dd.rtf from http://www.nber.org/data/cps_basic.html
 2. RTF is a nasty format! Mangle it into plaintext with rtf2txt.sh
 3. Edit this plaintext by hand to separate the categories and remove the header / footer
 4. Parse into JSON with jsonify.py
+5. Download may13pub.dat from http://www.nber.org/data/cps_basic.html
+6. Convert to CSV with dat2csv.py
